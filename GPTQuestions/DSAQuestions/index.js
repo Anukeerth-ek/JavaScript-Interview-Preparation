@@ -907,6 +907,29 @@
 //      }
 // };
 
-// console.log(findMissingNumbers([0, 2, 1, 4])); // 0 - 4
+// console.log(findMissingNumbers([7,8,6,9])); // 0 - 4
+
+// _________________________________________________
+
+// _________________________________________________
+// 28. Reverse a string
+
+// const reverseString = (input) => {
+//      if (typeof input !== "string") {
+//           throw new TypeError( `reverseString expected a string but received ${Object.prototype.toString.call(input)}`);
+//      }
+
+//   const chars = Array.from(input)
+//   const length = chars.length;
+//   const result = new Array(length);
+
+//   for (let i = 0; i < length; i++) {
+//     result[length - 1 - i] = chars[i];
+//   }
+
+//   return result.join("");
+// };
+
+// console.log(reverseString("frontend")); //dnetnorf
 
 // _________________________________________________
