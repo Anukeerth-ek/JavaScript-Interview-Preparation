@@ -933,3 +933,46 @@
 // console.log(reverseString("frontend")); //dnetnorf
 
 // _________________________________________________
+
+// _________________________________________________
+
+// 29. Count character frequency
+
+// const findFrequency = (input) => {
+//      if (typeof input !== "string") {
+//           throw new TypeError(`Expected string got ${typeof input} instead`);
+//      }
+
+     // _____________________
+
+     //  let result = {};
+
+     //  for (let i = 0; i < input.length; i++) {
+     //       result[input[i]] = (result[input[i]] || 0) + 1;
+     //  }
+     //  return result;
+     // _____________________
+
+     // let hashMap = Object.create(null);
+
+     // for (let char of input) {
+     //     if (hashMap[char] === undefined) {
+     //         hashMap[char] = 1;
+     //     }
+     //     else {
+     //         hashMap[char]  ++;
+     //     }
+     // }
+     // return hashMap;
+     // _____________________
+
+//      let map = new Map();
+
+//      for (let char of input) {
+//           map.set(char, (map.get(char) ?? 0) + 1);
+//      }
+//      return map;
+// };
+
+// findFrequency("banana"); // { b:1, a:3, n:2 }
+// _________________________________________________
