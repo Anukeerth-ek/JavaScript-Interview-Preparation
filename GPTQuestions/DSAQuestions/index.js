@@ -943,28 +943,28 @@
 //           throw new TypeError(`Expected string got ${typeof input} instead`);
 //      }
 
-     // _____________________
+// _____________________
 
-     //  let result = {};
+//  let result = {};
 
-     //  for (let i = 0; i < input.length; i++) {
-     //       result[input[i]] = (result[input[i]] || 0) + 1;
-     //  }
-     //  return result;
-     // _____________________
+//  for (let i = 0; i < input.length; i++) {
+//       result[input[i]] = (result[input[i]] || 0) + 1;
+//  }
+//  return result;
+// _____________________
 
-     // let hashMap = Object.create(null);
+// let hashMap = Object.create(null);
 
-     // for (let char of input) {
-     //     if (hashMap[char] === undefined) {
-     //         hashMap[char] = 1;
-     //     }
-     //     else {
-     //         hashMap[char]  ++;
-     //     }
-     // }
-     // return hashMap;
-     // _____________________
+// for (let char of input) {
+//     if (hashMap[char] === undefined) {
+//         hashMap[char] = 1;
+//     }
+//     else {
+//         hashMap[char]  ++;
+//     }
+// }
+// return hashMap;
+// _____________________
 
 //      let map = new Map();
 
@@ -975,4 +975,29 @@
 // };
 
 // findFrequency("banana"); // { b:1, a:3, n:2 }
+// _________________________________________________
+
+// _________________________________________________
+
+// 30. Remove duplicates from array
+
+// const uniqueArray = (arr) => {
+//      if (!Array.isArray(arr)) {
+//           throw new TypeError(`Expected an array got${Object.prototype.toString.call(arr)} instead`);
+//      }
+
+//      let seen = new Set();
+
+//      let result = [];
+
+//      for (let item of arr) {
+//           if (!seen.has(item)) {
+//                seen.add(item);
+//                result.push(item);
+//           }
+//      }
+//      return result;
+// };
+
+// uniqueArray([1, 2, 2, 3, 4, 4, 5]); // [1, 2, 3, 4, 5]
 // _________________________________________________
